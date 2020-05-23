@@ -383,7 +383,7 @@ public class FaceClient implements IFaceClient
 
             final byte[] replyBytes = socket.recv(0);
             ServerResult reply = SerializationUtils.deserialize(replyBytes);
-            System.out.println("AddPhoto reply: " + reply);
+            System.out.println("DeleteGroup reply: " + reply);
 
             return reply;
         }
